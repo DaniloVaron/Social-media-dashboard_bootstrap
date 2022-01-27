@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+
+  <title>Frontend Mentor | Social Media Dashboard Bootstrap</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/custom.css">
+
+  <!-- Estilos prueba -->
+  <link rel="stylesheet" href="./css/cambio_de_tema.css">
+</head>
+
+<body>
+
+  <!-- Cabecera -->
+  <header class="w-100 position-absolute cabecera"></header>
+
+  <!-- Contenedor -->
+  <main class="my-0 mx-auto mb-3 position-relative justify-content-center container">
+
+    <!-- Cabecera del contenedor -->
+    <div class="container_cabecera">
+      <div>
+        <h2 class="m-0 fs-4 fw-bold">Social Media Dashboard</h2>
+        <p class="m-0 mt-2 cabecera_texto">Total Followers: 23,004</p>
+      </div>
+
+      <hr class="d-none">
+
+      <div class=" d-flex align-items-center cabecera_cambio">
+        <p class="m-0 cambio_texto">Dark Mode</p>
+        <label class="ms-2 cambio_interruptor">
+          <input type="checkbox" id="cambio_id" class="opacity-0" unchecked>
+          <span class="position-absolute top-0 end-0 bottom-0 start-0 rounded-pill slider circulo"></span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Datos generales -->
+    <div class="my-5 mx-0 general">
+      <article class="d-flex flex-column text-center align-items-center overflow-hidden datos_generales">
+        <div class="w-100 mb-4 general_barra barra1"></div>
+
+        <div class="d-flex align-items-center mb-4 general_social">
+          <img src="./images/icon-facebook.svg" alt="facebook">
+          <p class="m-0 ms-2"> @nathanf</p>
+        </div>
+
+        <h3 class="m-0 fw-bold general_numero">1987</h3>
+        <p class="m-0 text-uppercase general_follow">Followers</p>
+        <div class="d-flex align-items-center my-4 m-0">
+          <img src="./images/icon-up.svg" alt="flecha up arriba">
+          <p class="dia_color verde">12 Today</p>
+        </div>
+      </article>
+
+      <article class="d-flex flex-column text-center align-items-center overflow-hidden datos_generales ">
+        <div class="w-100 mb-4 general_barra barra2"></div>
+
+        <div class=" d-flex align-items-center mb-4 general_social">
+          <img src="./images/icon-twitter.svg" alt="twitter">
+          <p class="m-0 ms-2"> @nathanf</p>
+        </div>
+
+        <h3 class="m-0 fw-bold general_numero">1044</h3>
+        <p class="m-0 text-uppercase general_follow">Followers</p>
+        <div class="d-flex align-items-center my-4 m-0">
+          <img src="./images/icon-up.svg" alt="flecha up arriba">
+          <p class="dia_color verde">99 Today</p>
+        </div>
+      </article>
+
+      <article class="d-flex flex-column text-center align-items-center overflow-hidden datos_generales">
+        <div class="w-100 mb-4 general_barra barra3"></div>
+
+        <div class="d-flex align-items-center mb-4 general_social">
+          <img src="./images/icon-instagram.svg" alt="instagram">
+          <p class="m-0 ms-2"> @realnathanf</p>
+        </div>
+
+        <h3 class="m-0 fw-bold general_numero">11k</h3>
+        <p class="m-0 text-uppercase general_follow">Followers</p>
+        <div class="d-flex align-items-center my-4 m-0">
+          <img src="./images/icon-up.svg" alt="flecha up arriba">
+          <p class="dia_color verde">1099 Today</p>
+        </div>
+      </article>
+
+      <article class="d-flex flex-column text-center align-items-center overflow-hidden datos_generales dato4">
+        <div class="w-100 mb-4 general_barra barra4"></div>
+
+        <div class="d-flex align-items-center mb-4 general_social">
+          <img src="./images/icon-youtube.svg" alt="youtube">
+          <p class="m-0 ms-2"> Nathan F.</p>
+        </div>
+
+        <h3 class="m-0 fw-bold general_numero">8239</h3>
+        <p class="m-0 text-uppercase general_follow">Subscribers</p>
+        <div class="d-flex align-items-center my-4 m-0">
+          <img src="./images/icon-down.svg" alt="flecha down abajo">
+          <p class="dia_color rojo">144 Today</p>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Titulo de hoy -->
+    <h2 class="m-0 mb-4 fs-4 fw-bold titulo_diario">Overview - Today</h2>
+
+    <!-- Datos diarios -->
+    <div class="diario">
+
+      <!-- Tarjeta diaria 1 -->
+      <article class=" datos_diarios">
+
+        <!-- Parte social de la tarjeta -->
+        <div class="d-flex align-items-center justify-content-between m-4 diario_social">
+          <p>Page Views</p>
+          <img src="./images/icon-facebook.svg" alt="facebook">
+        </div>
+
+        <!-- Estadistica de la tarjeta -->
+        <div class="d-flex justify-content-between align-items-center m-0 mx-4 mb-3 diario_estadistica">
+          <h4 class="fw-bold">87</h4>
+          <div class="d-flex align-items-center">
+            <img src="./images/icon-up.svg" alt="flecha up arriba">
+            <p class="texto verde">3%</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tarjeta diaria 2 -->
+      <article class=" datos_diarios">
+
+        <!-- Parte social de la tarjeta -->
+        <div class="d-flex align-items-center justify-content-between m-4 diario_social">
+          <p>Likes</p>
+          <img src="./images/icon-facebook.svg" alt="facebook">
+        </div>
+
+        <!-- Estadistica de la tarjeta -->
+        <div class="d-flex justify-content-between align-items-center m-0 mx-4 mb-3 diario_estadistica">
+          <h4 class="fw-bold">52</h4>
+          <div class="d-flex align-items-center">
+            <img src="./images/icon-down.svg" alt="flecha down abajo">
+            <p class="texto rojo">2%</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tarjeta diaria 3 -->
+      <article class=" datos_diarios">
+
+        <!-- Parte social de la tarjeta -->
+        <div class="d-flex align-items-center justify-content-between m-4 diario_social">
+          <p>Likes</p>
+          <img src="./images/icon-instagram.svg" alt="twitter">
+        </div>
+
+        <!-- Estadistica de la tarjeta -->
+        <div class="d-flex justify-content-between align-items-center m-0 mx-4 mb-3 diario_estadistica">
+          <h4 class="fw-bold">5462</h4>
+          <div class="d-flex align-items-center">
+            <img src="./images/icon-up.svg" alt="flecha up arriba">
+            <p class="texto verde">2257%</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tarjeta diaria 4 -->
+      <article class=" datos_diarios">
+
+        <!-- Parte social de la tarjeta -->
+        <div class="d-flex align-items-center justify-content-between m-4 diario_social">
+          <p>Profile Views</p>
+          <img src="./images/icon-instagram.svg" alt="twitter">
+        </div>
+
+        <!-- Estadistica de la tarjeta -->
+        <div class="d-flex justify-content-between align-items-center m-0 mx-4 mb-3 diario_estadistica">
+          <h4 class="fw-bold">52k</h4>
+          <div class="d-flex align-items-center">
+            <img src="./images/icon-up.svg" alt="flecha up arriba">
+            <p class="texto verde">1375%</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tarjeta diaria 5 -->
+      <article class=" datos_diarios">
+
+        <!-- Parte social de la tarjeta -->
+        <div class="d-flex align-items-center justify-content-between m-4 diario_social">
+          <p>Retweets</p>
+          <img src="./images/icon-twitter.svg" alt="instagram">
+        </div>
+
+        <!-- Estadistica de la tarjeta -->
+        <div class="d-flex justify-content-between align-items-center m-0 mx-4 mb-3 diario_estadistica">
+          <h4 class="fw-bold">117</h4>
+          <div class="d-flex align-items-center">
+            <img src="./images/icon-up.svg" alt="flecha up arriba">
+            <p class="texto verde">303%</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tarjeta diaria 6 -->
+      <article class=" datos_diarios">
+
+        <!-- Parte social de la tarjeta -->
+        <div class="d-flex align-items-center justify-content-between m-4 diario_social">
+          <p>Likes</p>
+          <img src="./images/icon-twitter.svg" alt="instagram">
+        </div>
+
+        <!-- Estadistica de la tarjeta -->
+        <div class="d-flex justify-content-between align-items-center m-0 mx-4 mb-3 diario_estadistica">
+          <h4 class="fw-bold">507</h4>
+          <div class=" d-flex align-items-center">
+            <img src="./images/icon-up.svg" alt="flecha up arriba">
+            <p class="texto verde">553%</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tarjeta diaria 7 -->
+      <article class=" datos_diarios">
+
+        <!-- Parte social de la tarjeta -->
+        <div class="d-flex align-items-center justify-content-between m-4 diario_social">
+          <p>Likes</p>
+          <img src="./images/icon-youtube.svg" alt="youtube">
+        </div>
+
+        <!-- Estadistica de la tarjeta -->
+        <div class="d-flex justify-content-between align-items-center m-0 mx-4 mb-3 diario_estadistica">
+          <h4 class="fw-bold">107</h4>
+          <div class="d-flex align-items-center">
+            <img src="./images/icon-down.svg" alt="flecha down abajo">
+            <p class="texto rojo">19%</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tarjeta diaria 8 -->
+      <article class=" datos_diarios">
+
+        <!-- Parte social de la tarjeta -->
+        <div class="d-flex align-items-center justify-content-between m-4 diario_social">
+          <p>Total Views</p>
+          <img src="./images/icon-youtube.svg" alt="youtube">
+        </div>
+
+        <!-- Estadistica de la tarjeta -->
+        <div class="d-flex justify-content-between align-items-center m-0 mx-4 mb-3 diario_estadistica">
+          <h4 class="fw-bold">1407</h4>
+          <div class="d-flex align-items-center">
+            <img src="./images/icon-down.svg" alt="flecha down abajo">
+            <p class="texto rojo">12%</p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+  </main>
+
+  <!-- Otro -->
+  <div class="attribution">
+    Desafío por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Codificado por <a href="https://github.com/DaniloVaron" target="_blank">Danilo Varon</a>.
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

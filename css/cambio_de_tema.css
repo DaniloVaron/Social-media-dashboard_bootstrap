@@ -1,0 +1,45 @@
+:root {
+  --Verde_lima: hsl(163, 72%, 41%);
+  --Rojo_brillante: hsl(356, 69%, 56%);
+
+  --Facebook: hsl(208, 92%, 53%);
+  --Twitter: hsl(203, 89%, 53%);
+
+  --Instagram1: hsl(37, 97%, 70%);
+  --Instagram2: hsl(329, 70%, 58%);
+
+  --Youtube: hsl(348, 97%, 39%);
+  --Naranja_suave: hsl(43, 84%, 65%);
+}
+
+.cambio_claro {
+  --Color_Cuerpo: hsl(0, 0%, 100%);
+  --Color_Cabecera: hsl(225, 100%, 98%);
+  --Color_Tarjeta: hsl(227, 47%, 96%);
+  --Color_Texto: hsl(228, 12%, 44%);
+  --Letra: hsl(230, 17%, 14%);
+
+  --Color_hover: hsl(227, 47%, 91%);
+
+  --left: 28px;
+  --camino: -1.5rem;
+
+  --boton1: hsl(230, 22%, 74%);
+  --boton1_1: hsl(230, 22%, 74%);
+}
+
+.cambio_oscuro {
+  --Color_Cuerpo: hsl(230, 17%, 14%);
+  --Color_Cabecera: hsl(232, 19%, 15%);
+  --Color_Tarjeta: hsl(228, 28%, 20%);
+  --Color_Texto: hsl(228, 34%, 66%);
+  --Letra: hsl(0, 0%, 100%);
+
+  --Color_hover: hsl(228, 28%, 28%);
+
+  --left: 4px;
+  --camino: 1.5rem;
+
+  --boton1: hsl(210, 78%, 56%);
+  --boton1_1: hsl(146, 68%, 55%);
+}
